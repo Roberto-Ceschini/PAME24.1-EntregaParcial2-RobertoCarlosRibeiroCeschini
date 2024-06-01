@@ -1,0 +1,203 @@
+/*Estilos Auxiliares*/
+*{
+	margin: 0px;
+	padding: 0px;
+	/*DESCOBRIR A FONTE QUE USARAM, O TOM DE LARANJA, O TAMANHO DAS FONTES, COMO ALTERAR COR DO FUNDO?*/
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	display: flex;
+
+}
+
+li{
+	display: flex;
+	justify-content: space-evenly;;
+}
+.laranja{
+	color: #f58232;
+}
+
+.branco{
+	color: white;
+}
+
+/*Topo*/
+#topo{
+	background-color: black;
+	height: 10vh;
+	width: 100vw;
+
+}
+
+#logo{
+	display: flex;
+	align-items: center;
+	margin-top: -90px;
+	margin-bottom: 150px;
+
+}
+
+#frase-topo-left{
+	font-size: 1.5em;
+}
+
+#imagem-logo{
+	margin-right: 20px;
+}
+
+#frase-topo-right{
+	display: flex;
+	align-items: center;
+	margin-top: -60px;
+	margin-bottom: 190px;
+	font-size: 1.6em;
+}
+
+/*Conteudo-Site*/
+#conteudo {
+	background-image: url('imagens/Foto_Fluxo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: space-evenly;
+	height: 85vh;
+	width: 100vw;
+
+}
+
+/*Conteudo Esquerdo*/
+#conteudo-left{
+	display: flex;
+	height: 85vh;
+	width: 30vw;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#frase-conteudo-esquerdo{
+	font-size: 2.4em;
+	margin-bottom: 35px;
+}
+
+#imagem-conteudo-esquerdo{
+	width: 960px;
+	margin-top: -120px;
+}
+
+/*Conteudo Direito*/
+#conteudo-right{
+	display: flex;
+	height: 85vh;
+	width: 30vw;
+	align-items: center;
+	flex-direction: column;
+
+
+}
+
+#link-lateral {
+	font-size: 0.8em;
+}
+
+#perguntaLink {
+	display: flex;
+	justify-content: space-between;
+}
+
+#formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.pergunta{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	font-size: 1.4em;
+}
+
+.caixaPergunta{
+	width: 18vw;
+	height: 7vh;
+	border: none;
+	border-radius: 8px;
+	display: flex;
+	text-indent: 50px;
+	margin-top: 10px;
+}
+
+#botao-entrar {
+	width: 18vw;
+	height: 7vh;
+	border: none;
+	border-radius: 14px;
+	display: flex;
+	margin-top: 80px;
+	background-color: #f58232;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.4em;
+
+}
+
+#logar{
+	margin-top: 20px;
+	width: 18vw;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.botao-login{
+	border-radius: 20px;
+	border: none;
+	height: 4vh;
+	width: 8vw;
+	text-indent: 20px;
+	font-size: 0.7em;
+	text-justify: 0.7em;
+	letter-spacing: -0.4px;
+}
+
+#botao-google
+{
+	background-image: url('imagens/logoGoogle.png');
+	background-color: white;
+	background-position: 10px;
+	background-size: 28px auto;
+	background-repeat: no-repeat;
+}
+
+#botao-apple{
+	background-image: url('imagens/logoApple.png');
+	background-color: white;
+	background-position: 10px;
+	background-size: 28px auto;
+	background-repeat: no-repeat;
+}
+
+/*Rodape*/
+#rodape {
+	background-color: black;
+	height: 5vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#linksRodape{
+	display: flex;
+	width: 60vw;
+	justify-content: space-around;
+	
+}
+
