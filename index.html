@@ -8,9 +8,9 @@
 	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
-	<div id="topo">
+	<header id="topo">
 
-	</div>
+	</header>
 	
 	<div id="conteudo">
 
@@ -47,31 +47,34 @@
 			        <input type="checkbox" id="lembrar" name="lembrar"> Lembrar de mim
 			    </label>
 
-			    <label>
-			        <button id="botao-entrar" class="branco" onclick="AlertaLogin()">Entrar</button>
+			    <label id="label-botao-entrar">
+			    	<button id="botao-entrar" class="branco" onclick="AlertaLogin()">Entrar</button>
 			    </label>
 
-			    <label>
-			        <div id="logar">
-			            <button class="botao-login" id="botao-google">Entrar com o Google</button>
-			            <button class="botao-login" id="botao-apple">Entrar com Apple</button>
-			        </div>
-			    </label>
+                <div id="logar">
+    			    <label>
+    			        <button class="botao-login" id="botao-google">Entrar com o Google</button>
+                    </label>
+
+                    <label>
+    			        <button class="botao-login" id="botao-apple">Entrar com Apple</button>
+    			    </label>
+                </div>
 			</form>
 
 		</div>
 
 	</div>
 
-	<div id="rodape">
+	<footer id="rodape">
 		<div id="linksRodape">
-			<a href="#" class="branco">Sobre</a>
-			<a href="#" class="branco">Central de ajdua</a>
-			<a href="#" class="branco">Termos de serviço</a>
-			<a href="#" class="branco">Política de privacidade</a>
-			<a href="#" class="branco">Acessibilidade</a>
-			<a href="#" class="branco">Política de Cookies</a>
+			<button class="botao-footer branco">Sobre</button>
+			<button class="botao-footer branco">Central de ajdua</button>
+			<button class="botao-footer branco">Termos de serviço</button>
+			<button class="botao-footer branco">Política de privacidade</button>
+			<button  class="botao-footer branco">Acessibilidade</button>
+			<button class="botao-footer branco">Política de Cookies</button>
 		</div>
-	</div>
+	</footer>
 </body>
 </html>

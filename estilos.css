@@ -18,7 +18,7 @@ li{
 	justify-content: space-evenly;;
 }
 .laranja{
-	color: #f58232;
+	color: #f58333;
 }
 
 .branco{
@@ -105,6 +105,10 @@ li{
 	font-size: 0.8em;
 }
 
+#link-lateral:hover{
+	text-decoration: underline;
+}
+
 #perguntaLink {
 	display: flex;
 	justify-content: space-between;
@@ -133,14 +137,18 @@ li{
 	margin-top: 10px;
 }
 
+#label-botao-entrar{
+	margin-top: 80px;
+	border-radius: 14px;
+}
+
 #botao-entrar {
 	width: 18vw;
 	height: 7vh;
 	border: none;
 	border-radius: 14px;
 	display: flex;
-	margin-top: 80px;
-	background-color: #f58232;
+	background-color: #f58333;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -148,44 +156,56 @@ li{
 
 }
 
-#logar{
-	margin-top: 20px;
-	width: 18vw;
-	display: flex;
-	justify-content: space-between;
-	
-}
-
-.botao-login{
-	border-radius: 20px;
-	border: none;
-	height: 4vh;
-	width: 8vw;
-	text-indent: 20px;
-	font-size: 0.7em;
-	text-justify: 0.7em;
-	letter-spacing: -0.4px;
-}
-
-#botao-google
-{
-	background-image: url('imagens/logoGoogle.png');
+#botao-entrar:hover{
 	background-color: white;
-	background-position: 10px;
-	background-size: 28px auto;
-	background-repeat: no-repeat;
+	color: #f58333;
+	cursor: pointer;
+}
+#logar {
+    margin-top: 20px;
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    border: none
+    
 }
 
-#botao-apple{
-	background-image: url('imagens/logoApple.png');
-	background-color: white;
-	background-position: 10px;
-	background-size: 28px auto;
-	background-repeat: no-repeat;
+.botao-login {
+    border-radius: 20px;
+    border: none;
+    height: 4vh;
+    width: 8vw;
+    font-size: 0.7em;
+    text-align: center; 
+    letter-spacing: -0.005em;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    background-size: 28px auto;
+    text-indent: 3.0em; 
 }
+
+#botao-google {
+    background-image: url('imagens/logoGoogle.png');
+}
+
+#botao-google:hover {
+    cursor: pointer;
+    background-color: #E0E0E0;
+}
+
+#botao-apple {
+    background-image: url('imagens/logoApple.png');
+}
+
+#botao-apple:hover {
+    cursor: pointer;
+    background-color: #E0E0E0;
+}
+
 
 /*Rodape*/
-#rodape {
+#rodape{
 	background-color: black;
 	height: 5vh;
 	width: 100vw;
@@ -199,5 +219,15 @@ li{
 	width: 60vw;
 	justify-content: space-around;
 	
+}
+
+.botao-footer{
+	background: none;
+	border: none;
+}
+
+.botao-footer:hover{
+	cursor: pointer;
+	color: #f58333;
 }
 
