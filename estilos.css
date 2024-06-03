@@ -8,15 +8,7 @@
 a{
 	text-decoration: none;
 }
-ul{
-	display: flex;
 
-}
-
-li{
-	display: flex;
-	justify-content: space-evenly;;
-}
 .laranja{
 	color: #f58333;
 }
@@ -201,6 +193,51 @@ li{
 #botao-apple:hover {
     cursor: pointer;
     background-color: #E0E0E0;
+}
+
+/*Botao estilizado CheckBox*/
+
+#lembrar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#span-lembrar{
+    margin-left: 35px;
+}
+
+#chk{
+  display: none;
+}
+
+.switch{
+    position: relative;
+    background-color: #777;
+    width: 1.8vw;
+    height: 1.4vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.bolinha{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 1vw;
+    height: 1.6vh;
+    transition: all .3s ease-in-out;
+}
+
+#chk:checked ~ .switch{
+    background-color: #f58333;
+}
+
+#chk:checked ~ .switch .bolinha{
+    transform: translate(18px);
 }
 
 

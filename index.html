@@ -43,9 +43,16 @@
 			        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" class="caixaPergunta">
 			    </label>
 
-			    <label class="laranja">
-			        <input type="checkbox" id="lembrar" name="lembrar"> Lembrar de mim
-			    </label>
+                <div id="lembrar">
+
+                    <input type="checkbox" id="chk">
+                    <label for="chk" class="switch">
+                        <span class="bolinha"></span>
+                    </label>
+
+                    <span class="laranja" id="span-lembrar">Lembrar-se de mim</span>
+
+                </div>
 
 			    <label id="label-botao-entrar">
 			    	<button id="botao-entrar" class="branco" onclick="AlertaLogin()">Entrar</button>
@@ -55,7 +62,6 @@
     			    <label>
     			        <button class="botao-login" id="botao-google">Entrar com o Google</button>
                     </label>
-
                     <label>
     			        <button class="botao-login" id="botao-apple">Entrar com Apple</button>
     			    </label>
